@@ -1,0 +1,13 @@
+type,name,minx,miny,maxx,maxy,spawn_rate,speed,chase,fly
+collectible,Jet,2,2,5,10,0,0,0,0
+collectible,Torch,2,2,5,10,0,0,0,0
+collectible,Lamp,2,2,5,10,0,0,0,0
+collectible,Boost,2,2,5,10,0,0,0,0
+collectible,Ray Gun,2,2,5,10,0,0,0,0
+collectible,Map,2,2,5,10,0,0,0,0
+collectible,Paint,2,2,5,10,0,0,0,0
+mob,Refugee,2,2,5,10,500,0.8,0,1
+mob,Amalgamation,2,2,5,10,0,0.4,0,1
+mob,Blob,2,2,5,10,0,0.2,1,1
+mob,Prowler,2,2,5,10,50,1,1,0
+mob,Ghost,2,2,5,10,50,0.4,1,1

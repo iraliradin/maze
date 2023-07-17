@@ -1,0 +1,878 @@
+(0.0) Game started at: 0 0
+██████████████████████████████████████████████████
+█S █    ██ ███   █ █████  █ █████████        █ █ █
+█   █ █       ██    █   █      ██     ████ █     █
+█ █ █  ██ █ █   ███   █   █ ███   █ ███    █████ █
+██  E █   ██  █    ██ ███ █     ███ █   ███      █
+█  █ █  ██  █████ █      █ █ █ █    █ ██   █ █████
+█ █    ████       █ ██ ██   █  █ ████  █ █  ██   █
+█  █ █  ██  █ █████ █ █   █  ███     █ █  █    █ █
+██  ███   █████       █ ████    █ ██ █ ██ ██ ██  █
+█ █  █ ██   █   ████ █  █  ████ █ █  ██    █   █ █
+█   █   ███   ██   █  █  █      ███ █   ██ ██ █  █
+██ █  █    ████  █ ██ █ ██ ██ ██      █   █   █ ██
+█  █ █████      █    █    █    ██████  ███  █  █ █
+█ █       ██████  ██  ███  █ █       ██    █ █   █
+█ █ █ ███      █████ █   █ █ █████ █    ██    ██ █
+█  █    ██████    █    █    █     ███ █   █ ██  ██
+██  ███      ████ █████  ████ ███ █████ ████  █  █
+███    █ █ █    █     ███     █ █      █    █  █ █
+█  ███  █ ██ ███  █ █     ████  █ ████ ██ █  █   █
+██    █     █    █   ████ █    ██ █  █     █  ██ █
+█  ███ ████ ██ █  █ █    █  █ █   ██  ███ █ █    █
+█ █           █ █  █  ██   ███  ██  █     █  ███ █
+█ ██ ███ ██ █   ██  ██   █ ███ █   ██ ██████   █ █
+█       █  █  ██ █ █   ████    ███        █ █ █ ██
+█████ ██ █   █   █   ██  █  █ █   █ ██ ██ █      █
+█   ██    █ █  ████ █  █  █ █ █ █  █  █     ██ █ █
+█ █    ██    █       █   ██  █   █   █  █ ██  █ ██
+██  ██  ██████ █ █ ██  █   █ █ ██ █ █  █    █    █
+█ ██   █      █ █    ███ █ █ █    █ ███  ██   ██ █
+█   █ ███ ███    ███      █  █ ██ █    █  ██ █   █
+█ █ █  █    ████   ████ ██  █    ███ █  █  █████ █
+█ █   █ ███    █ █    █  █ ██ █ █   █ █ ███     ██
+█  ███    █ ██ █  ███ █ ██     █  █   █   █ ███  █
+██    █ █  ██   ██     █   █ █   █████  █   █   ██
+█  █ █  ██  ███   ██ █  ███   ██ ██   █ █ ██  █  █
+█ ██  █   █     █   █  █   █ █ ██   █  █ █   █ █ █
+███ █  ███ █ ███  █  █ █ █ █      ██ █   █ ██    █
+█   ██ █    █   ███ █    █ ███ █ █ █   █ █ █  ██ █
+█ ██ █ █ ██   █     ███ █    █  █   █ ███  ███   █
+█    █ █   ██ ███ ██   █ █ █ ███  █ █  █  █   █ ██
+███ █  █ █   █       ██   ██     █   ██  █ ██    █
+█     █ █  █  █ █ ██    █   ██ ███ █   █ █    █ ██
+█ ██ █   █ ██ ███  ███ ████  ██   ██ █   █ ███   █
+█   ██ █    █    ██   █    █  █ █   ███████    █ █
+███   █  █ █ ███  █ █   ██ ███   ██        ████ ██
+█  ██  ██       █ █  ███       █  ███ ████       █
+██  █ █   █████ █   █   █ █████ ██   █     █ ███ █
+███    ████    █ ███  █ ███        █ ████████    █
+█   ██      ██       █      █ █ █ █           ██ █
+██ ██ ██████  ███████ ██████ █ █ █ ███████████  ██
+█   █    █   ██    █   █         █ █       █   █ █
+█ █ █ ██ ██ █   █ █  █   ██████ ██   ██ █ █  ██  █
+█ █ █  █  █   █  ██ █ ███     █   █ ███ █ █ █   ██
+██   █  █   █  ██   █ █  █ █ █ █ ██  █  ██  █ █  █
+██ ██  █  ██ █  █ ███  █ █ █   █   █  █  █ █  ██ █
+██  █ ██ █    █   █  █ █    ███ ██ █ █  █   █  █ █
+█  █  █  █ ██  ███ █   █ █ █    █  █  ██ █ █ █ █ █
+█ █ █ █ █   █ █    █ █ █  █  █ █  █ █    █   █ █ █
+█ █  █  █ █ █ █ █ ██ ██  █  █   █   █ █ ██ ███ █ █
+█ ██ █ █  █  █  █ █    █ █ █ █ █ █ █ █  █  █   █ █
+█    █  █  █ ██ █ █ █ ██ █   █ █ █     █ █   ██  █
+█ ██   █ █ █  █ █   █  █ █ █ █    ██ ██   ██  █ ██
+██  ███    ██ █ █████ ██ █  █  ██  █    █ ███ █  █
+█ █   █ █ █   █     █  █  █ █ █ █ █ █ ███  ██  █ █
+█   ██   ██ ██ ████  █   ██ █   ██   █   █   █ █ █
+█ █  █ ██   █     █ █  █  █ █ ██   █  █ █ ██  █  █
+█  █  █   ██  █ ██  █ █  ██ █ █  ████   █   █   ██
+█ █  █  █  █ █  █  █  █ █ █ █   ██ █ ██ █ █  █ █ █
+█  █   ███ █ █ ██ █  ██   █  ███   █  █ █ █ ██   █
+█ █  ██ ██ █ █  █ ██   █ █ █ █ █ █   █  █ █ █ █ ██
+█ █ █      █  █    █ █ █ █ █   █  █ █  ██ █   █  █
+█ █  █ █ ██ █  █ ██  █  █   █ █  █ ██ █   ██ █ █ █
+█ ██ ███  █ █ ██  █ █ ███ █ █   ██    █ ██ █   █ █
+█  █   ███  █   █ █ █    █   ██ █  ██ █ ██  █ ██ █
+█ █  █     █ ██  █  █ █ ██ █  █  █ ██ █    █  █  █
+█ ██ █ ██ █    █ █ █  █    ██ ██ █   ███ █ █ ██ ██
+█  █ █  █   ██ █ █   ██ █ █ █  █ █ █  █   ██  █ ██
+██ █  █  █ █  ██  ███ █ █ █  █ █  ███ █ █  █ ██  █
+██  █ █ █    █   █     █  █ ██ ██  ██ █  ██  █  ██
+███ █  █  ███  ██ ██ █ █ ██      █  █   █   █  █ █
+███ ██ █ █   █     █  █   █ ████  █  ████ █ █ ██ █
+██    ██ █ █  ████   █  █ ██    █ █ ██  █  ██  █ █
+███ ██   █ █ █   █ ██  █   █ ██ █ █    █ █   █ █ █
+███  █ ██  █   ███  █ █ █ ██ ██ █  █ ██   ██ █ █ █
+██  █   █ █  ██   █ █   █  █  █  █ █    █ █  █ █ █
+██ ██ █ █ █ █   █ █ █ █  █ █ █ █ █ ███ █  █ ██ █ █
+█   █  ██ █  █ ██ █ █  █  █  █ █ █    █ █ █  █   █
+██ █  █    █ █ █  █ ██  █ █ ██ █  █ ██  █ █ █ █ ██
+█  █ █  █ █  █ █ ██  ██  █  █  █ ██  █ █  █      █
+██ █   █ █  ██ █   █  ██  █   ██ █  █  █ █  █ ██ █
+█   ██ █ █ ██   █ █ █  █ █  █ ██  ██  ██ █ █ █  ██
+█ ██ █   █  █ ██  █ █ █  █ ██   █ █  ██  █ █  █  █
+█     █ █  █  █  █    █ ██ ██ █ █   ███ ██ █ █ █ █
+███ ██  █ █  ██ █  ██ █ █   █ █ █ █  █  ██ █   █ █
+█ █  █ █  █ █ █  █   █  █ █  █  █ ███  █ █ ██ █  █
+█ ██ █ ██ █    █   ██  █  █ █  ██   █ ██ █     █ █
+█  █ █  █  █ █ █ ██ █ ██ █ █  █  ██ █  █  █ █ █  █
+██    █ ██ █ █  ██  █       █ ██  █   █  █   ██ ██
+█  ██ █  █    █    █  █ ██ █     █  █   █  █     █
+██████████████████████████████████████████████████
+(15.0) Collectible spawn: Jet at: 4 9
+(15.0) Collectible spawn: Torch at: 3 2
+(15.0) Collectible spawn: Lamp at: 5 6
+(15.0) Collectible spawn: Boost at: 3 6
+(15.0) Collectible spawn: Ray Gun at: 5 2
+(15.0) Collectible spawn: Map at: 3 10
+(15.0) Collectible spawn: Paint at: 4 4
+(16.1) Mob spawn at: 33 11
+(16.1) Mob spawn at: 3 21
+(16.1) Mob spawn at: 29 45
+(16.1) Mob spawn at: 35 19
+(16.1) Mob spawn at: 44 45
+(16.2) Mob spawn at: 37 1
+(16.2) Mob spawn at: 6 15
+(16.2) Mob spawn at: 48 40
+(16.2) Mob spawn at: 35 11
+(16.2) Mob spawn at: 48 45
+(16.3) Mob spawn at: 18 12
+(16.3) Mob spawn at: 39 4
+(16.3) Mob spawn at: 16 20
+(16.3) Mob spawn at: 17 46
+(16.3) Mob spawn at: 31 44
+(16.4) Mob spawn at: 42 44
+(16.4) Mob spawn at: 6 1
+(16.4) Mob spawn at: 24 37
+(16.4) Mob spawn at: 3 48
+(16.4) Mob spawn at: 34 40
+(16.5) Mob spawn at: 39 23
+(16.5) Mob spawn at: 21 5
+(16.5) Mob spawn at: 16 8
+(16.5) Mob spawn at: 2 7
+(16.5) Mob spawn at: 6 1
+(16.5) Mob spawn at: 23 7
+(16.6) Mob spawn at: 18 28
+(16.6) Mob spawn at: 18 10
+(16.6) Mob spawn at: 13 14
+(16.6) Mob spawn at: 41 32
+(16.6) Mob spawn at: 20 10
+(16.7) Mob spawn at: 13 4
+(16.7) Mob spawn at: 12 28
+(16.7) Mob spawn at: 10 44
+(16.7) Mob spawn at: 7 35
+(16.7) Mob spawn at: 16 15
+(16.8) Mob spawn at: 48 35
+(16.8) Mob spawn at: 38 10
+(16.8) Mob spawn at: 35 11
+(16.8) Mob spawn at: 10 21
+(16.8) Mob spawn at: 8 21
+(16.9) Mob spawn at: 47 10
+(16.9) Mob spawn at: 37 29
+(16.9) Mob spawn at: 22 33
+(16.9) Mob spawn at: 7 11
+(16.9) Mob spawn at: 13 35
+(17.0) Mob spawn at: 31 30
+(17.0) Mob spawn at: 26 6
+(17.0) Mob spawn at: 17 45
+(17.0) Mob spawn at: 7 41
+(17.0) Mob spawn at: 8 42
+(17.1) Mob spawn at: 15 26
+(17.1) Mob spawn at: 24 31
+(17.1) Mob spawn at: 34 40
+(17.1) Mob spawn at: 3 3
+(17.1) Mob spawn at: 17 26
+(17.2) Mob spawn at: 48 20
+(17.2) Mob spawn at: 21 23
+(17.2) Mob spawn at: 38 39
+(17.2) Mob spawn at: 20 29
+(17.2) Mob spawn at: 29 2
+(17.3) Mob spawn at: 28 29
+(17.3) Mob spawn at: 12 18
+(17.3) Mob spawn at: 3 3
+(17.3) Mob spawn at: 1 9
+(17.3) Mob spawn at: 1 43
+(17.4) Mob spawn at: 8 46
+(17.4) Mob spawn at: 39 32
+(17.4) Mob spawn at: 30 41
+(17.4) Mob spawn at: 29 36
+(17.4) Mob spawn at: 6 26
+(17.5) Mob spawn at: 48 47
+(17.5) Mob spawn at: 44 24
+(17.5) Mob spawn at: 48 20
+(17.5) Mob spawn at: 1 12
+(17.5) Mob spawn at: 48 36
+(17.6) Mob spawn at: 23 30
+(17.6) Mob spawn at: 47 36
+(17.6) Mob spawn at: 40 23
+(17.6) Mob spawn at: 8 37
+(17.6) Mob spawn at: 16 38
+(17.6) Mob spawn at: 20 15
+(17.7) Mob spawn at: 19 37
+(17.7) Mob spawn at: 38 14
+(17.7) Mob spawn at: 16 34
+(17.7) Mob spawn at: 27 45
+(17.7) Mob spawn at: 47 29
+(17.8) Mob spawn at: 31 20
+(17.8) Mob spawn at: 4 11
+(17.8) Mob spawn at: 38 46
+(17.8) Mob spawn at: 26 24
+(17.8) Mob spawn at: 12 23
+(17.9) Mob spawn at: 10 30
+(17.9) Mob spawn at: 33 9
+(17.9) Mob spawn at: 11 48
+(17.9) Mob spawn at: 10 48
+(18.0) Mob spawn at: 2 1
+(18.0) Mob spawn at: 9 25
+(18.0) Mob spawn at: 27 1
+(18.0) Mob spawn at: 18 40
+(18.0) Mob spawn at: 35 21
+(18.1) Mob spawn at: 33 5
+(18.1) Mob spawn at: 4 12
+(18.1) Mob spawn at: 46 18
+(18.1) Mob spawn at: 11 43
+(18.1) Mob spawn at: 4 5
+(18.2) Mob spawn at: 3 9
+(18.2) Mob spawn at: 39 4
+(18.2) Mob spawn at: 25 9
+(18.2) Mob spawn at: 5 17
+(18.2) Mob spawn at: 20 47
+(18.2) Mob spawn at: 14 25
+(18.3) Mob spawn at: 25 18
+(18.3) Mob spawn at: 14 33
+(18.3) Mob spawn at: 1 39
+(18.3) Mob spawn at: 30 32
+(18.4) Mob spawn at: 18 46
+(18.4) Mob spawn at: 37 15
+(18.4) Mob spawn at: 26 5
+(18.4) Mob spawn at: 9 48
+(18.4) Mob spawn at: 3 21
+(18.5) Mob spawn at: 39 26
+(18.5) Mob spawn at: 5 3
+(18.5) Mob spawn at: 7 33
+(18.5) Mob spawn at: 13 28
+(18.5) Mob spawn at: 14 43
+(18.6) Mob spawn at: 12 18
+(18.6) Mob spawn at: 20 34
+(18.6) Mob spawn at: 21 17
+(18.6) Mob spawn at: 33 17
+(18.6) Mob spawn at: 20 41
+(18.6) Mob spawn at: 10 16
+(18.7) Mob spawn at: 32 44
+(18.7) Mob spawn at: 15 21
+(18.7) Mob spawn at: 25 41
+(18.7) Mob spawn at: 48 28
+(18.7) Mob spawn at: 38 21
+(18.8) Mob spawn at: 33 47
+(18.8) Mob spawn at: 7 44
+(18.8) Mob spawn at: 35 11
+(18.8) Mob spawn at: 20 48
+(18.8) Mob spawn at: 28 19
+(18.9) Mob spawn at: 9 4
+(18.9) Mob spawn at: 33 5
+(18.9) Mob spawn at: 31 8
+(18.9) Mob spawn at: 47 15
+(19.0) Mob spawn at: 17 13
+(19.0) Mob spawn at: 42 6
+(19.0) Mob spawn at: 33 28
+(19.0) Mob spawn at: 19 36
+(19.0) Mob spawn at: 24 25
+(19.1) Mob spawn at: 5 46
+(19.1) Mob spawn at: 30 8
+(19.1) Mob spawn at: 18 48
+(19.1) Mob spawn at: 3 36
+(19.1) Mob spawn at: 19 38
+(19.2) Mob spawn at: 46 2
+(19.2) Mob spawn at: 21 32
+(19.2) Mob spawn at: 5 31
+(19.2) Mob spawn at: 47 40
+(19.2) Mob spawn at: 26 17
+(19.3) Mob spawn at: 12 36
+(19.3) Mob spawn at: 7 7
+(19.3) Mob spawn at: 8 28
+(19.3) Mob spawn at: 33 38
+(19.3) Mob spawn at: 33 20
+(19.4) Mob spawn at: 26 22
+(19.4) Mob spawn at: 43 28
+(19.4) Mob spawn at: 48 17
+(19.4) Mob spawn at: 24 5
+(19.4) Mob spawn at: 19 43
+(19.5) Mob spawn at: 9 48
+(19.5) Mob spawn at: 9 35
+(19.5) Mob spawn at: 8 46
+(19.5) Mob spawn at: 36 41
+(19.5) Mob spawn at: 24 20
+(19.5) Mob spawn at: 36 13
+(19.6) Mob spawn at: 3 37
+(19.6) Mob spawn at: 1 42
+(19.6) Mob spawn at: 30 2
+(19.6) Mob spawn at: 28 36
+(19.6) Mob spawn at: 34 35
+(19.7) Mob spawn at: 21 35
+(19.7) Mob spawn at: 29 30
+(19.7) Mob spawn at: 31 24
+(19.7) Mob spawn at: 37 27
+(19.7) Mob spawn at: 28 39
+(19.8) Mob spawn at: 34 21
+(19.8) Mob spawn at: 4 22
+(19.8) Mob spawn at: 21 13
+(19.8) Mob spawn at: 21 3
+(19.8) Mob spawn at: 3 44
+(19.9) Mob spawn at: 2 1
+(19.9) Mob spawn at: 38 10
+(19.9) Mob spawn at: 47 44
+(19.9) Mob spawn at: 15 29
+(19.9) Mob spawn at: 15 4
+(20.0) Mob spawn at: 22 18
+(20.0) Mob spawn at: 28 14
+(20.0) Mob spawn at: 14 19
+(20.0) Mob spawn at: 33 36
+(20.0) Mob spawn at: 36 46
+(20.1) Mob spawn at: 18 30
+(20.1) Mob spawn at: 22 26
+(20.1) Mob spawn at: 47 36
+(20.1) Mob spawn at: 28 39
+(20.2) Mob spawn at: 24 35
+(20.2) Mob spawn at: 1 32
+(20.2) Mob spawn at: 2 11
+(20.2) Mob spawn at: 46 12
+(20.2) Mob spawn at: 33 27
+(20.3) Mob spawn at: 9 39
+(20.3) Mob spawn at: 2 25
+(20.3) Mob spawn at: 22 33
+(20.3) Mob spawn at: 27 41
+(20.3) Mob spawn at: 24 20
+(20.4) Mob spawn at: 32 28
+(20.4) Mob spawn at: 41 19
+(20.4) Mob spawn at: 48 32
+(20.4) Mob spawn at: 11 20
+(20.4) Mob spawn at: 10 5
+(20.5) Mob spawn at: 25 46
+(20.5) Mob spawn at: 42 48
+(20.5) Mob spawn at: 37 17
+(20.5) Mob spawn at: 21 2
+(20.5) Mob spawn at: 33 27
+(20.6) Mob spawn at: 44 34
+(20.6) Mob spawn at: 44 4
+(20.6) Mob spawn at: 1 43
+(20.6) Mob spawn at: 13 19
+(20.6) Mob spawn at: 26 6
+(20.6) Mob spawn at: 3 21
+(20.7) Mob spawn at: 43 43
+(20.7) Mob spawn at: 31 40
+(20.7) Mob spawn at: 5 14
+(20.7) Mob spawn at: 23 24
+(20.7) Mob spawn at: 4 34
+(20.8) Mob spawn at: 45 19
+(20.8) Mob spawn at: 47 10
+(20.8) Mob spawn at: 41 46
+(20.8) Mob spawn at: 8 24
+(20.8) Mob spawn at: 25 41
+(20.9) Mob spawn at: 37 5
+(20.9) Mob spawn at: 1 3
+(20.9) Mob spawn at: 2 39
+(20.9) Mob spawn at: 29 31
+(21.0) Mob spawn at: 48 35
+(21.0) Mob spawn at: 1 30
+(21.0) Mob spawn at: 37 14
+(21.0) Mob spawn at: 36 36
+(21.0) Mob spawn at: 46 25
+(21.0) Mob spawn at: 39 36
+(21.1) Mob spawn at: 42 38
+(21.1) Mob spawn at: 33 11
+(21.1) Mob spawn at: 35 44
+(21.1) Mob spawn at: 40 39
+(21.1) Mob spawn at: 4 15
+(21.2) Mob spawn at: 21 2
+(21.2) Mob spawn at: 23 38
+(21.2) Mob spawn at: 42 17
+(21.2) Mob spawn at: 48 16
+(21.2) Mob spawn at: 48 10
+(21.2) Mob spawn at: 47 34
+(21.3) Mob spawn at: 19 45
+(21.3) Mob spawn at: 5 28
+(21.3) Mob spawn at: 31 40
+(21.3) Mob spawn at: 23 20
+(21.3) Mob spawn at: 30 35
+(21.4) Mob spawn at: 30 44
+(21.4) Mob spawn at: 24 5
+(21.4) Mob spawn at: 38 48
+(21.4) Mob spawn at: 33 48
+(21.4) Mob spawn at: 18 22
+(21.4) Mob spawn at: 35 7
+(21.5) Mob spawn at: 9 26
+(21.5) Mob spawn at: 26 30
+(21.5) Mob spawn at: 39 21
+(21.5) Mob spawn at: 23 26
+(21.5) Mob spawn at: 42 17
+(21.6) Mob spawn at: 9 18
+(21.6) Mob spawn at: 34 17
+(21.6) Mob spawn at: 37 31
+(21.6) Mob spawn at: 34 17
+(21.6) Mob spawn at: 23 31
+(21.7) Mob spawn at: 45 37
+(21.7) Mob spawn at: 5 11
+(21.7) Mob spawn at: 45 37
+(21.7) Mob spawn at: 28 5
+(21.7) Mob spawn at: 15 11
+(21.8) Mob spawn at: 7 10
+(21.8) Mob spawn at: 2 8
+(21.8) Mob spawn at: 17 5
+(21.8) Mob spawn at: 12 35
+(21.8) Mob spawn at: 22 44
+(21.8) Mob spawn at: 14 9
+(21.9) Mob spawn at: 20 45
+(21.9) Mob spawn at: 17 32
+(21.9) Mob spawn at: 37 4
+(21.9) Mob spawn at: 41 13
+(21.9) Mob spawn at: 45 37
+(22.0) Mob spawn at: 42 33
+(22.0) Mob spawn at: 29 20
+(22.0) Mob spawn at: 27 45
+(22.0) Mob spawn at: 32 34
+(22.0) Mob spawn at: 37 5
+(22.0) Mob spawn at: 37 11
+(22.1) Mob spawn at: 38 33
+(22.1) Mob spawn at: 32 45
+(22.1) Mob spawn at: 40 39
+(22.1) Mob spawn at: 27 2
+(22.1) Mob spawn at: 9 48
+(22.2) Mob spawn at: 46 13
+(22.2) Mob spawn at: 6 6
+(22.2) Mob spawn at: 27 25
+(22.2) Mob spawn at: 35 48
+(22.2) Mob spawn at: 15 28
+(22.3) Mob spawn at: 37 14
+(22.3) Mob spawn at: 4 38
+(22.3) Mob spawn at: 9 41
+(22.3) Mob spawn at: 37 22
+(22.3) Mob spawn at: 30 4
+(22.3) Mob spawn at: 23 9
+(22.4) Mob spawn at: 2 7
+(22.4) Mob spawn at: 16 15
+(22.4) Mob spawn at: 29 25
+(22.4) Mob spawn at: 39 15
+(22.4) Mob spawn at: 12 6
+(22.5) Mob spawn at: 2 10
+(22.5) Mob spawn at: 14 6
+(22.5) Mob spawn at: 10 41
+(22.5) Mob spawn at: 42 35
+(22.5) Mob spawn at: 17 36
+(22.5) Mob spawn at: 25 25
+(22.6) Mob spawn at: 43 7
+(22.6) Mob spawn at: 3 30
+(22.6) Mob spawn at: 3 25
+(22.6) Mob spawn at: 33 9
+(22.6) Mob spawn at: 21 5
+(22.7) Mob spawn at: 8 39
+(22.7) Mob spawn at: 30 30
+(22.7) Mob spawn at: 44 4
+(22.7) Mob spawn at: 10 45
+(22.7) Mob spawn at: 43 15
+(22.7) Mob spawn at: 36 34
+(22.8) Mob spawn at: 27 17
+(22.8) Mob spawn at: 31 21
+(22.8) Mob spawn at: 37 14
+(22.8) Mob spawn at: 48 3
+(22.8) Mob spawn at: 34 7
+(22.8) Mob spawn at: 26 10
+(22.9) Mob spawn at: 40 44
+(22.9) Mob spawn at: 41 11
+(22.9) Mob spawn at: 30 19
+(22.9) Mob spawn at: 24 29
+(22.9) Mob spawn at: 4 34
+(23.0) Mob spawn at: 28 45
+(23.0) Mob spawn at: 39 21
+(23.0) Mob spawn at: 45 40
+(23.0) Mob spawn at: 46 47
+(23.0) Mob spawn at: 27 19
+(23.0) Mob spawn at: 21 21
+(23.1) Mob spawn at: 17 16
+(23.1) Mob spawn at: 40 48
+(23.1) Mob spawn at: 37 15
+(23.1) Mob spawn at: 36 37
+(23.1) Mob spawn at: 36 46
+(23.2) Mob spawn at: 39 1
+(23.2) Mob spawn at: 19 22
+(23.2) Mob spawn at: 11 16
+(23.2) Mob spawn at: 11 43
+(23.2) Mob spawn at: 46 6
+(23.2) Mob spawn at: 12 31
+(23.3) Mob spawn at: 11 10
+(23.3) Mob spawn at: 9 19
+(23.3) Mob spawn at: 36 34
+(23.3) Mob spawn at: 23 37
+(23.3) Mob spawn at: 32 28
+(23.4) Mob spawn at: 25 17
+(23.4) Mob spawn at: 25 46
+(23.4) Mob spawn at: 16 44
+(23.4) Mob spawn at: 37 44
+(23.4) Mob spawn at: 32 45
+(23.5) Mob spawn at: 43 4
+(23.5) Mob spawn at: 48 18
+(23.5) Mob spawn at: 45 39
+(23.5) Mob spawn at: 48 19
+(23.5) Mob spawn at: 16 48
+(23.5) Mob spawn at: 17 16
+(23.6) Mob spawn at: 44 11
+(23.6) Mob spawn at: 2 1
+(23.6) Mob spawn at: 6 3
+(23.6) Mob spawn at: 2 12
+(23.6) Mob spawn at: 21 32
+(23.7) Mob spawn at: 2 32
+(23.7) Mob spawn at: 16 20
+(23.7) Mob spawn at: 37 41
+(23.7) Mob spawn at: 29 23
+(23.7) Mob spawn at: 5 29
+(23.8) Mob spawn at: 29 10
+(23.8) Mob spawn at: 14 35
+(23.8) Mob spawn at: 34 14
+(23.8) Mob spawn at: 43 18
+(23.8) Mob spawn at: 19 17
+(23.9) Mob spawn at: 33 39
+(23.9) Mob spawn at: 37 12
+(23.9) Mob spawn at: 36 32
+(23.9) Mob spawn at: 36 7
+(23.9) Mob spawn at: 11 28
+(24.0) Mob spawn at: 1 25
+(24.0) Mob spawn at: 2 37
+(24.0) Mob spawn at: 40 9
+(24.0) Mob spawn at: 5 4
+(24.0) Mob spawn at: 18 40
+(24.0) Mob spawn at: 27 42
+(24.1) Mob spawn at: 29 10
+(24.1) Mob spawn at: 6 26
+(24.1) Mob spawn at: 34 21
+(24.1) Mob spawn at: 31 8
+(24.1) Mob spawn at: 8 8
+(24.2) Mob spawn at: 23 43
+(24.2) Mob spawn at: 29 25
+(24.2) Mob spawn at: 43 41
+(24.2) Mob spawn at: 8 19
+(24.2) Mob spawn at: 36 41
+(24.3) Mob spawn at: 31 47
+(24.3) Mob spawn at: 22 44
+(24.3) Mob spawn at: 39 3
+(24.3) Mob spawn at: 44 39
+(24.3) Mob spawn at: 28 23
+(24.3) Mob spawn at: 45 31
+(24.4) Mob spawn at: 21 10
+(24.4) Mob spawn at: 1 37
+(24.4) Mob spawn at: 12 47
+(24.4) Mob spawn at: 38 4
+(24.4) Mob spawn at: 38 6
+(24.5) Mob spawn at: 18 46
+(24.5) Mob spawn at: 15 6
+(24.5) Mob spawn at: 16 20
+(24.5) Mob spawn at: 15 21
+(24.5) Mob spawn at: 30 6
+(24.6) Mob spawn at: 37 25
+(24.6) Mob spawn at: 6 47
+(24.6) Mob spawn at: 34 21
+(24.6) Mob spawn at: 18 24
+(24.6) Mob spawn at: 42 2
+(24.7) Mob spawn at: 25 3
+(24.7) Mob spawn at: 21 32
+(24.7) Mob spawn at: 39 44
+(24.7) Mob spawn at: 8 43
+(24.7) Mob spawn at: 43 48
+(24.7) Mob spawn at: 48 13
+(24.8) Mob spawn at: 21 13
+(24.8) Mob spawn at: 6 3
+(24.8) Mob spawn at: 7 4
+(24.8) Mob spawn at: 16 18
+(24.8) Mob spawn at: 1 7
+(24.9) Mob spawn at: 48 14
+(24.9) Mob spawn at: 32 11
+(24.9) Mob spawn at: 16 34
+(24.9) Mob spawn at: 24 28
+(24.9) Mob spawn at: 35 31
+(25.0) Mob spawn at: 35 35
+(25.0) Mob spawn at: 42 5
+(25.0) Mob spawn at: 10 30
+(25.0) Mob spawn at: 32 7
+(25.0) Mob spawn at: 7 8
+(25.0) Mob spawn at: 17 42
+(25.1) Mob spawn at: 31 31
+(25.1) Mob spawn at: 8 8
+(25.1) Mob spawn at: 40 41
+(25.1) Mob spawn at: 5 26
+(25.1) Mob spawn at: 13 41
+(25.2) Mob spawn at: 9 21
+(25.2) Mob spawn at: 44 41
+(25.2) Mob spawn at: 36 36
+(25.2) Mob spawn at: 39 26
+(25.2) Mob spawn at: 15 3
+(25.3) Mob spawn at: 6 28
+(25.3) Mob spawn at: 6 40
+(25.3) Mob spawn at: 21 37
+(25.3) Mob spawn at: 26 9
+(25.3) Mob spawn at: 15 21
+(25.3) Mob spawn at: 12 35
+(25.4) Mob spawn at: 45 20
+(25.4) Mob spawn at: 16 32
+(25.4) Mob spawn at: 43 24
+(25.4) Mob spawn at: 41 17
+(25.4) Mob spawn at: 23 31
+(25.5) Mob spawn at: 3 23
+(25.5) Mob spawn at: 7 19
+(25.5) Mob spawn at: 14 29
+(25.5) Mob spawn at: 18 31
+(25.5) Mob spawn at: 26 11
+(25.6) Mob spawn at: 41 27
+(25.6) Mob spawn at: 2 33
+(25.6) Mob spawn at: 5 47
+(25.6) Mob spawn at: 40 29
+(25.6) Mob spawn at: 46 15
+(25.6) Mob spawn at: 48 21
+(25.7) Mob spawn at: 33 31
+(25.7) Mob spawn at: 34 11
+(25.7) Mob spawn at: 35 44
+(25.7) Mob spawn at: 11 14
+(25.7) Mob spawn at: 24 22
+(25.7) Mob spawn at: 18 48
+(25.7) Mob spawn at: 3 23
+(25.7) Mob spawn at: 33 3
+(25.8) Mob spawn at: 28 17
+(25.8) Mob spawn at: 17 8
+(25.8) Mob spawn at: 13 12
+(25.8) Mob spawn at: 12 10
+(25.8) Mob spawn at: 18 28
+(25.8) Mob spawn at: 46 29
+(25.8) Mob spawn at: 39 48
+(25.9) Mob spawn at: 18 48
+(25.9) Mob spawn at: 7 11
+(25.9) Mob spawn at: 9 46
+(25.9) Mob spawn at: 12 10
+(25.9) Mob spawn at: 18 8
+(25.9) Mob spawn at: 17 2
+(25.9) Mob spawn at: 9 48
+(25.9) Mob spawn at: 39 21
+(26.0) Mob spawn at: 37 48
+(26.0) Mob spawn at: 22 44
+(26.0) Mob spawn at: 19 15
+(26.0) Mob spawn at: 43 48
+(26.0) Mob spawn at: 13 10
+(26.0) Mob spawn at: 15 48
+(26.0) Mob spawn at: 11 28
+(26.1) Mob spawn at: 24 48
+(26.1) Mob spawn at: 18 48
+(26.1) Mob spawn at: 15 41
+(26.1) Mob spawn at: 13 4
+(26.1) Mob spawn at: 19 15
+(26.1) Mob spawn at: 40 42
+(26.1) Mob spawn at: 35 17
+(26.1) Mob spawn at: 48 4
+(26.2) Mob spawn at: 23 18
+(26.2) Mob spawn at: 37 27
+(26.2) Mob spawn at: 16 48
+(26.2) Mob spawn at: 4 31
+(26.2) Mob spawn at: 40 48
+(26.2) Mob spawn at: 7 48
+(26.2) Mob spawn at: 3 23
+(26.3) Mob spawn at: 39 19
+(26.3) Mob spawn at: 25 41
+(26.3) Mob spawn at: 7 13
+(26.3) Mob spawn at: 13 12
+(26.3) Mob spawn at: 40 48
+(26.3) Mob spawn at: 40 48
+(26.3) Mob spawn at: 26 44
+(26.4) Mob spawn at: 5 36
+(26.4) Mob spawn at: 15 19
+(26.4) Mob spawn at: 28 19
+(26.4) Mob spawn at: 21 27
+(26.4) Mob spawn at: 1 30
+(26.4) Mob spawn at: 7 27
+(26.5) Mob spawn at: 35 2
+(26.5) Mob spawn at: 43 39
+(26.5) Mob spawn at: 15 29
+(26.5) Mob spawn at: 27 19
+(26.5) Mob spawn at: 26 17
+(26.6) Mob spawn at: 48 20
+(26.6) Mob spawn at: 7 44
+(26.6) Mob spawn at: 44 5
+(26.6) Mob spawn at: 21 39
+(26.6) Mob spawn at: 8 37
+(26.7) Mob spawn at: 20 24
+(26.7) Mob spawn at: 17 42
+(26.7) Mob spawn at: 41 30
+(26.7) Mob spawn at: 15 43
+(26.7) Mob spawn at: 14 31
+(26.7) Mob spawn at: 48 34
+(26.8) Mob spawn at: 46 2
+(26.8) Mob spawn at: 11 48
+(26.8) Mob spawn at: 9 25
+(26.8) Mob spawn at: 17 12
+(26.8) Mob spawn at: 27 7
+(26.9) Mob spawn at: 28 40
+(26.9) Mob spawn at: 35 13
+(26.9) Mob spawn at: 26 35
+(26.9) Mob spawn at: 5 31
+(26.9) Mob spawn at: 41 15
+(27.0) Mob spawn at: 45 37
+(27.0) Mob spawn at: 6 3
+(27.0) Mob spawn at: 44 22
+(27.0) Mob spawn at: 36 44
+(27.0) Mob spawn at: 1 23
+(27.1) Mob spawn at: 39 21
+(27.1) Mob spawn at: 26 39
+(27.1) Mob spawn at: 27 47
+(27.1) Mob spawn at: 45 40
+(27.1) Mob spawn at: 20 3
+(27.2) Mob spawn at: 20 13
+(27.2) Mob spawn at: 47 15
+(27.2) Mob spawn at: 9 9
+(27.2) Mob spawn at: 28 33
+(27.2) Mob spawn at: 16 44
+(27.3) Mob spawn at: 47 24
+(27.3) Mob spawn at: 5 41
+(27.3) Amalgamation was born at: 0 0
+(27.3) Blob at 2 at: 0 0
+(27.3) Amalgamation was born at: 0 0
+(27.3) Blob at 2 at: 0 0
+(27.3) Amalgamation was born at: 0 0
+(27.4) Blob at 2 at: 0 0
+(27.4) Blob was born at: 0 0
+(27.4) Blob at 3 at: 0 0
+(27.4) Amalgamation was born at: 0 0
+(27.4) Blob at 2 at: 0 0
+(27.7) Blob was born at: 0 0
+(27.7) Blob at 3 at: 0 0
+(41.3) Collectible gathered: Ray Gun at: 5 3
+(41.6) Blob was born at: 0 0
+(41.6) Blob at 3 at: 0 0
+(41.6) Amalgamation was born at: 0 0
+(41.6) Blob at 2 at: 0 0
+(41.8) Amalgamation was born at: 0 0
+(41.8) Blob at 2 at: 0 0
+(41.9) Blob was born at: 0 0
+(41.9) Blob at 3 at: 0 0
+(42.7) Blob was born at: 0 0
+(42.7) Blob at 3 at: 0 0
+(45.7) Mob killed at: 5 5
+(50.1) Collectible gathered: Paint at: 5 4
+(50.4) Amalgamation was born at: 0 0
+(50.4) Blob at 2 at: 0 0
+(50.6) Blob was born at: 0 0
+(50.6) Blob at 3 at: 0 0
+(50.7) Amalgamation was born at: 0 0
+(50.7) Blob at 2 at: 0 0
+(50.7) Blob was born at: 0 0
+(50.7) Blob at 3 at: 0 0
+(50.9) Amalgamation was born at: 0 0
+(50.9) Blob at 2 at: 0 0
+(52.5) Collectible gathered: Boost at: 4 6
+(58.2) Amalgamation was born at: 0 0
+(58.2) Blob at 2 at: 0 0
+(58.4) Blob was born at: 0 0
+(58.4) Blob at 3 at: 0 0
+(59.6) Amalgamation was born at: 0 0
+(59.6) Blob at 2 at: 0 0
+(59.6) Blob was born at: 0 0
+(59.6) Blob at 3 at: 0 0
+(60.1) Amalgamation was born at: 0 0
+(60.2) Blob at 2 at: 0 0
+(64.9) Amalgamation was born at: 0 0
+(64.9) Blob at 2 at: 0 0
+(64.9) Amalgamation was born at: 0 0
+(64.9) Blob at 2 at: 0 0
+(65.0) Blob was born at: 0 0
+(65.1) Blob at 3 at: 0 0
+(66.8) Amalgamation was born at: 0 0
+(66.8) Blob at 2 at: 0 0
+(67.4) Blob was born at: 0 0
+(67.4) Blob at 3 at: 0 0
+(92.2) Collectible gathered: Lamp at: 6 6
+(93.8) Amalgamation was born at: 0 0
+(93.8) Blob at 2 at: 0 0
+(93.8) Blob was born at: 0 0
+(93.8) Blob at 3 at: 0 0
+(94.8) Amalgamation was born at: 0 0
+(94.9) Blob at 2 at: 0 0
+(99.6) Amalgamation was born at: 0 0
+(99.7) Blob at 2 at: 0 0
+(99.7) Blob was born at: 0 0
+(99.7) Blob at 3 at: 0 0
+(101.6) Amalgamation was born at: 0 0
+(101.6) Blob at 2 at: 0 0
+(103.3) Amalgamation was born at: 0 0
+(103.3) Blob at 2 at: 0 0
+(103.3) Blob was born at: 0 0
+(103.4) Blob at 3 at: 0 0
+(103.4) Blob was born at: 0 0
+(103.4) Blob at 3 at: 0 0
+(103.8) Amalgamation was born at: 0 0
+(103.9) Blob at 2 at: 0 0
+(110.7) Amalgamation was born at: 0 0
+(110.7) Blob at 2 at: 0 0
+(110.9) Amalgamation was born at: 0 0
+(111.0) Blob at 2 at: 0 0
+(111.0) Blob was born at: 0 0
+(111.1) Blob at 3 at: 0 0
+(129.4) Amalgamation was born at: 0 0
+(129.5) Blob at 2 at: 0 0
+(129.8) Amalgamation was born at: 0 0
+(129.8) Blob at 2 at: 0 0
+(131.7) Blob was born at: 0 0
+(131.7) Blob at 3 at: 0 0
+(138.1) Amalgamation was born at: 0 0
+(138.1) Blob at 2 at: 0 0
+(141.8) Amalgamation was born at: 0 0
+(141.8) Blob at 2 at: 0 0
+(142.1) Amalgamation was born at: 0 0
+(142.1) Blob at 2 at: 0 0
+(143.0) Amalgamation was born at: 0 0
+(143.1) Blob at 2 at: 0 0
+(143.5) Amalgamation was born at: 0 0
+(143.5) Blob at 2 at: 0 0
+(144.3) Blob was born at: 0 0
+(144.4) Blob at 3 at: 0 0
+(145.0) Amalgamation was born at: 0 0
+(145.0) Blob at 2 at: 0 0
+(145.3) Blob was born at: 0 0
+(145.3) Blob at 3 at: 0 0
+(146.0) Amalgamation was born at: 0 0
+(146.1) Blob at 2 at: 0 0
+(146.2) Blob was born at: 0 0
+(146.3) Blob at 3 at: 0 0
+(148.9) Amalgamation was born at: 0 0
+(148.9) Blob at 2 at: 0 0
+(148.9) Blob was born at: 0 0
+(148.9) Blob at 3 at: 0 0
+(149.0) Amalgamation was born at: 0 0
+(149.1) Blob at 2 at: 0 0
+(149.1) Blob was born at: 0 0
+(149.1) Blob at 3 at: 0 0
+(154.4) Amalgamation was born at: 0 0
+(154.4) Blob at 2 at: 0 0
+(154.7) Blob was born at: 0 0
+(154.8) Blob at 3 at: 0 0
+(156.9) Amalgamation was born at: 0 0
+(157.0) Blob at 2 at: 0 0
+(157.6) Amalgamation was born at: 0 0
+(157.7) Blob at 2 at: 0 0
+(157.8) Amalgamation was born at: 0 0
+(157.8) Blob at 2 at: 0 0
+(157.8) Blob was born at: 0 0
+(157.8) Blob at 3 at: 0 0
+(158.4) Blob was born at: 0 0
+(158.4) Blob at 3 at: 0 0
+(162.7) Amalgamation was born at: 0 0
+(162.7) Blob at 2 at: 0 0
+(168.4) Blob was born at: 0 0
+(168.4) Blob at 3 at: 0 0
+(175.7) Blob was born at: 0 0
+(175.7) Blob at 3 at: 0 0
+(193.8) Blob was born at: 0 0
+(193.8) Blob at 3 at: 0 0
+(194.9) Amalgamation was born at: 0 0
+(195.0) Blob at 2 at: 0 0
+(202.6) Collectible gathered: Torch at: 3 3
+(205.8) Amalgamation was born at: 0 0
+(205.9) Blob at 2 at: 0 0
+(205.9) Collectible gathered: Map at: 3 10
+(206.2) Blob was born at: 0 0
+(206.2) Blob at 3 at: 0 0
+(206.8) Collectible gathered: Jet at: 4 9
+(209.0) Amalgamation was born at: 0 0
+(209.0) Blob at 2 at: 0 0
+(210.0) Blob was born at: 0 0
+(210.0) Blob at 3 at: 0 0
+(211.7) Amalgamation was born at: 0 0
+(211.8) Blob at 2 at: 0 0
+(212.1) Blob was born at: 0 0
+(212.1) Blob at 3 at: 0 0
+(212.7) Amalgamation was born at: 0 0
+(212.7) Blob at 2 at: 0 0
+(212.7) Blob was born at: 0 0
+(212.7) Blob at 3 at: 0 0
+(213.1) Amalgamation was born at: 0 0
+(213.1) Blob at 2 at: 0 0
+(213.1) Blob was born at: 0 0
+(213.1) Blob at 3 at: 0 0
+(213.3) Amalgamation was born at: 0 0
+(213.3) Blob at 2 at: 0 0
+(217.0) Amalgamation was born at: 0 0
+(217.0) Blob at 2 at: 0 0
+(217.0) Blob was born at: 0 0
+(217.0) Blob at 3 at: 0 0
